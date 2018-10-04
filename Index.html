@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
-	
+
 </head>
 <body>
 	<img class="logo" alt="En meget snu kat" src="assets/smug_cat_by_khuanlertmai-dbbekwp.jpg">
@@ -23,7 +23,7 @@ Dewagno.</pre>
 </aside>
 <div class="siteWrapper">
 
-<h1 style="font-family:verdana;">Dette er banan kunst</h1>
+<h1 style="font-family:verdana;">Dette er en banan kunst</h1>
 <div>
 	<img class="mySlides" alt="En banan i formen af darth Vader" src="assets/original.jpg">
 	<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
@@ -48,11 +48,11 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
+      x[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
