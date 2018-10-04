@@ -1,0 +1,52 @@
+h1{
+	color: red;
+	font-size:40px;
+}
+p{
+	color: rgb(255,255,255);
+}
+pre{
+	color: rgb(255,255,255);
+}
+p{
+	font-style: italic;
+}
+body{
+	background-color: rgb(55,55,55);
+	display: flex;
+
+}
+.siteWrapper{
+	padding-left: 10%;
+	padding-right: 10%;
+	float: left;
+	width: 80%;
+}
+.naph-column{
+	float: left;
+	width: 20%;
+}
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.logo{
+	max-height: 45px;
+}
